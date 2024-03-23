@@ -3,6 +3,8 @@ import React from 'react';
 interface PhotoProps{
     url: string;
     alt: string;
+    width: number;
+    height: number;
 }
 
 function Photo(props:PhotoProps) {
@@ -10,8 +12,8 @@ function Photo(props:PhotoProps) {
         <img
             src= {props.url}
             alt={props.alt}
-            width={100}
-            height={100}
+            width={props.width}
+            height={props.height}
         />
     )
 };
