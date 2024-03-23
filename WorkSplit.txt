@@ -1,0 +1,7 @@
+Chris:
+Photo Gird Component
+Search Bar Component
+
+Daniel:
+Photo Component
+Sort Component
