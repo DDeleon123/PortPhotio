@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Photo from "./components/photocomp";
+
 
 export default function Home() {
   return (
@@ -107,7 +109,11 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+        <Photo url="https://m.media-amazon.com/images/M/MV5BYWExMTc4ZTQtYjNhNC00ODAzLWI5OWEtMjlhMjU2MzBiYmY3L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTk3OTMzOA@@._V1_.jpg"
+      alt="you a bitch"> 
+       </Photo>
       </div>
+
     </main>
   );
 }
